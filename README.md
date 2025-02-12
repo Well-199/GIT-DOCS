@@ -37,9 +37,8 @@ git branch
 ```
 A branch ativa aparecerá com um **asterisco (`*`)** ao lado.
 
-
 ---
-
+---
 
 📌 Para verificar todas as branches locais no seu repositório Git, use o seguinte comando no terminal ou prompt de comando dentro do diretório do repositório:
 
@@ -59,7 +58,7 @@ git branch -v
 ```
 
 ---
-
+---
 
 📌 Para subir suas alterações da branch local `well_teste` diretamente para a branch remota `develop` sem subir sua branch local, siga estes passos: 
 
@@ -87,9 +86,8 @@ git branch -d well_teste
 ```
 Se a branch ainda não foi mesclada em `develop` e quiser forçar a remoção, use `-D` no lugar de `-d`. 
 
-
 ---
-
+---
 
 📌 Padrão da empresa trabalhar sempre em uma branch local de acordo com a Task
 
