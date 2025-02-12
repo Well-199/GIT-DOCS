@@ -37,9 +37,10 @@ git branch
 ```
 A branch ativa aparecerá com um **asterisco (`*`)** ao lado.
 
-==================================================================
-|                        Git Docs Well                           |
-==================================================================
+================================================================================
+|                                  Git Docs Well                               |
+================================================================================
+
 
 📌 Para verificar todas as branches locais no seu repositório Git, use o seguinte comando no terminal ou prompt de comando dentro do diretório do repositório:
 
@@ -58,9 +59,10 @@ Caso precise ver mais detalhes sobre cada branch, como a última confirmação f
 git branch -v 
 ```
 
-==================================================================
-|                        Git Docs Well                           |
-==================================================================
+================================================================================
+|                                  Git Docs Well                               |
+================================================================================
+
 
 
 📌 Para subir suas alterações da branch local `well_teste` diretamente para a branch remota `develop` sem subir sua branch local, siga estes passos: 
@@ -89,9 +91,10 @@ git branch -d well_teste
 ```
 Se a branch ainda não foi mesclada em `develop` e quiser forçar a remoção, use `-D` no lugar de `-d`. 
 
-==================================================================
-|                        Git Docs Well                           |
-==================================================================
+================================================================================
+|                                  Git Docs Well                               |
+================================================================================
+
 
 📌 Padrão da empresa trabalhar sempre em uma branch local de acordo com a Task
 
