@@ -1,6 +1,6 @@
 # GIT-DOCS
 
-Para criar uma branch local via **CMD** (Prompt de Comando), siga estes passos:
+📌 Para criar uma branch local via **CMD** (Prompt de Comando), siga estes passos:
 
 ### 1. Abra o **CMD** e navegue até o repositório
 Se o seu repositório estiver, por exemplo, em `C:\Projetos\meu-repo`, execute:
@@ -37,12 +37,11 @@ git branch
 ```
 A branch ativa aparecerá com um **asterisco (`*`)** ao lado.
 
-#### ===================================================================
-#### ===================================================================
-#### ===================================================================
-#### ===================================================================
+==================================================================
+|                        Git Docs Well                           |
+==================================================================
 
-Para verificar todas as branches locais no seu repositório Git, use o seguinte comando no terminal ou prompt de comando dentro do diretório do repositório:
+📌 Para verificar todas as branches locais no seu repositório Git, use o seguinte comando no terminal ou prompt de comando dentro do diretório do repositório:
 
 ```bash
 git branch
@@ -59,12 +58,12 @@ Caso precise ver mais detalhes sobre cada branch, como a última confirmação f
 git branch -v 
 ```
 
-#### ===================================================================
-#### ===================================================================
-#### ===================================================================
-#### ===================================================================
+==================================================================
+|                        Git Docs Well                           |
+==================================================================
 
-Para subir suas alterações da branch local `well_teste` diretamente para a branch remota `develop` sem subir sua branch local, siga estes passos: 
+
+📌 Para subir suas alterações da branch local `well_teste` diretamente para a branch remota `develop` sem subir sua branch local, siga estes passos: 
 
 ### 1️⃣ **Certifique-se de estar na branch `well_teste`**  
 ```bash
@@ -90,14 +89,13 @@ git branch -d well_teste
 ```
 Se a branch ainda não foi mesclada em `develop` e quiser forçar a remoção, use `-D` no lugar de `-d`. 
 
-#### ===================================================================
-#### ===================================================================
-#### ===================================================================
-#### ===================================================================
+==================================================================
+|                        Git Docs Well                           |
+==================================================================
 
-#### 
+📌 Padrão da empresa trabalhar sempre em uma branch local de acordo com a Task
 
-### 1️⃣ **Crie uma branch local de acordo com a task Atualize**
+### 1️⃣ **Crie uma branch local de acordo com a task**
 ```cmd
 git branch nome-da-branch
 ```
