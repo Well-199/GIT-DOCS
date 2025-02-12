@@ -124,5 +124,17 @@ git branch -d nome-da-branch
 git branch
 ```
 
+---
+
+📌 Quando for ncessario o merge use:
+
+```bash
+git merge nome-da-branch
+```
+
+Se houver conflitos, resolva-os e finalize o merge.
+
+---
+
 #### Seletores para usar na documentação
 ### 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
