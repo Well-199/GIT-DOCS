@@ -126,7 +126,7 @@ git branch
 
 ---
 
-📌 Quando for ncessario o merge use:
+📌 Quando for necessário o merge use:
 
 ```bash
 git merge nome-da-branch
