@@ -58,11 +58,11 @@ git branch -v
 
 ---
 
-📌 Para subir suas alterações da branch local `well_teste` diretamente para a branch remota `develop` sem subir sua branch local, siga estes passos: 
+📌 Para subir suas alterações da branch local `nome_da_branch_local` diretamente para a branch remota `develop` sem subir sua branch local, siga estes passos: 
 
-### 1️⃣ **Certifique-se de estar na branch `well_teste`**  
+### 1️⃣ **Certifique-se de estar na branch `nome_da_branch_local`**  
 ```bash
-git checkout well_teste
+git checkout nome_da_branch_local
 ```
 
 ### 2️⃣ **Atualize sua branch com a versão mais recente do repositório remoto (opcional, mas recomendado)**  
@@ -73,14 +73,14 @@ Isso garante que você tenha as últimas mudanças da `develop` antes de enviar 
 
 ### 3️⃣ **Envie suas alterações para a branch remota `develop`**  
 ```bash
-git push origin well_teste:develop
+git push origin nome_da_branch_local:develop
 ```
-Isso significa: "Pegue o conteúdo da minha branch local `well_teste` e empurre para a branch `develop` no repositório remoto".  
+Isso significa: "Pegue o conteúdo da minha branch local `nome_da_branch_local` e empurre para a branch `develop` no repositório remoto".  
 
 ### 4️⃣ **(Opcional) Se precisar apagar sua branch local depois**  
-Se você não precisar mais da branch `well_teste`, pode deletá-la localmente com:  
+Se você não precisar mais da branch `nome_da_branch_local`, pode deletá-la localmente com:  
 ```bash
-git branch -d well_teste
+git branch -d nome_da_branch_local
 ```
 Se a branch ainda não foi mesclada em `develop` e quiser forçar a remoção, use `-D` no lugar de `-d`. 
 
@@ -89,8 +89,8 @@ Se a branch ainda não foi mesclada em `develop` e quiser forçar a remoção, u
 📌 Padrão da empresa trabalhar sempre em uma branch local de acordo com a Task
 
 ### 1️⃣ **Crie uma branch local de acordo com a task**
-```cmd
-git branch nome-da-branch
+```bash
+git branch nome-da-branch-task#00
 ```
 
 ### 2️⃣ **Atualize sua branch local a partir da develop**
@@ -106,13 +106,13 @@ git pull origin develop
 ```
 e agora sim atualiazando a develop com a task
 ```bash
-git push origin well_teste:develop
+git push origin nome_da_branch_local:develop
 ```
 
 ### 4️⃣ **Excluindo uma branch local**
 
 ```bash
-git branch -d nome-da-branch
+git branch -d nome_da_branch_local
 ```
 ⚠️ O -d (minúsculo) só permite excluir a branch se todas as alterações já tiverem sido mescladas.
 
@@ -133,6 +133,15 @@ git merge nome-da-branch
 ```
 
 Se houver conflitos, resolva-os e finalize o merge.
+
+---
+
+📌 Atualizando uma branch remota com alteraçoes no código em branch somente local  
+
+### 1️⃣ **Envie suas alterações para a branch remota `develop` ex:**  
+```bash
+git push origin nome_da_branch_local:develop
+```
 
 ---
 
