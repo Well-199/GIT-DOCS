@@ -145,5 +145,28 @@ git push origin nome_da_branch_local:develop
 
 ---
 
+📌 Removendo pastas /bin e /obj do monitoramento do git 
+
+### 1️⃣ **Execute o comando abaixo de acordo com cada projeto**  
+```bash
+git rm -r --cached NOME_PROJETO/bin/
+```
+agora sem usar a / no final
+
+```bash
+git rm -r --cached NOME_PROJETO/bin/
+```
+para as pastas /obj
+
+```bash
+git rm -r --cached NOME_PROJETO/obj/
+```
+agora sem usar a / no final
+
+```bash
+git rm -r --cached NOME_PROJETO/obj/
+```
+---
+
 #### Seletores para usar na documentação
 ### 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
